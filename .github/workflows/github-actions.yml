@@ -31,4 +31,4 @@ jobs:
         run: yarn install --immutable
 
       - name: Building the app
-        run: eas build --platform android --non-interactive
+        run: eas build --platform android --non-interactive --no-wait
