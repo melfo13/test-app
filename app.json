@@ -19,14 +19,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.testapp"
+      "bundleIdentifier": "com.fullfocusplanner.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.anonymous.testapp"
+      "package": "com.fullfocusplanner.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"

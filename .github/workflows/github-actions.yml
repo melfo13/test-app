@@ -29,6 +29,5 @@ jobs:
           token: ${{ secrets.EXPO_TOKEN }}
       - name: Install dependencies
         run: yarn install --immutable
-
       - name: Building the app
         run: eas build --platform android --non-interactive --no-wait
