@@ -18,6 +18,8 @@ jobs:
         run: yarn install
       - name: Expo Prebuild
         run: npx expo prebuild --platform android
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
       - name: Build Android App
         uses: sparkfabrik/android-build-action@v1.2.0
         with:
